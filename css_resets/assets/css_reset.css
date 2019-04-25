@@ -1,0 +1,23 @@
+
+    html, body, section, aside, header, footer h1, h2, p {
+
+      margin: 0px;
+      border: 0px;
+      padding: 0px;
+      font: inherit;
+      text-align: inherit;
+    }
+
+    body {
+      padding: 20px;
+      border: 10px solid red;
+      line-height: 1.5;
+      font-family: sans-serif;
+
+    }
+
+
+    img figure {
+      width: 100%; 
+
+    }

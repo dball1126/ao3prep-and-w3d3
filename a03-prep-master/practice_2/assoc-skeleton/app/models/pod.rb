@@ -11,4 +11,6 @@
 #
 
 class Pod < ApplicationRecord
+
+    # belongs_to :teaching_
 end

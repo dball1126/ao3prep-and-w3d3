@@ -11,4 +11,12 @@
 #
 
 class Developer < ApplicationRecord
+
+    belongs_to :circle,
+        primary_key: :id,
+        foreign_key: :student_circle_id,
+        class_name: :Circle
+    
+    def final_project
+    end
 end

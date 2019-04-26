@@ -10,4 +10,17 @@
 #
 
 class Circle < ApplicationRecord
+    
+
+    belongs_to :pod,
+        primary_key: :id,
+        foreign_key: :pod_id,
+        class_name: :Pod
+
+    has_many :students,
+        primary_key: :id,
+        foreign_key: :student_pod_id,
+        class_name: :Developer
+    
+    
 end

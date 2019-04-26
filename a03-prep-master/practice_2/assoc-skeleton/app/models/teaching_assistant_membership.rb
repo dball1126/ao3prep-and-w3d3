@@ -10,4 +10,10 @@
 #
 
 class TeachingAssistantMembership < ApplicationRecord
+
+
+    has_many :pods,
+        primary_key: :id,
+        foreign_key: :student_circle_id,
+        class_name: :developers
 end
